@@ -1,0 +1,46 @@
+{
+  "name": "rtsu",
+  "version": "0.1.0",
+  "description": "Some reusable TypeScript utilities/interfaces/types for use in React apps",
+  "main": "lib/index.js",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Panjie Setiawan Wicaksono",
+    "email": "panjie@panjiesw.com",
+    "url": "https://panjiesw.life"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/panjiesw/rtsu.git"
+  },
+  "bugs": {
+    "url": "https://github.com/panjiesw/rtsu/issues"
+  },
+  "homepage": "https://github.com/panjiesw/rtsu",
+  "keywords": [
+    "typescript",
+    "react",
+    "interfaces"
+  ],
+  "scripts": {
+    "build": "tsc --declaration",
+    "clean": "del-cli lib",
+    "prebuild": "yarn clean"
+  },
+  "devDependencies": {
+    "@types/react": "^16.3.5",
+    "del-cli": "^1.1.0",
+    "prettier": "^1.11.1",
+    "react": "^16.3.1",
+    "tslint": "^5.9.1",
+    "tslint-config-prettier": "^1.10.0",
+    "tslint-react": "^3.5.1",
+    "typescript": "^2.8.1"
+  },
+  "dependencies": {
+    "tslib": "^1.9.0"
+  },
+  "peerDependencies": {
+    "react": "^16.3.1"
+  }
+}

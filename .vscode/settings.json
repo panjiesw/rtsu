@@ -1,0 +1,34 @@
+{
+  // vscode settings
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": true,
+  "editor.renderWhitespace": "boundary",
+  "editor.rulers": [
+    80
+  ],
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+
+  // Typescript settings
+  "typescript.tsdk": "./node_modules/typescript/lib",
+
+  // TSLint settings
+  "tslint.enable": true,
+  "tslint.ignoreDefinitionFiles": true,
+  "tslint.exclude": [
+    "**/lib/**",
+    "**/node_modules/**"
+  ],
+
+  // License generator settings
+  "licenser.projectName": "rtsu",
+  "licenser.license": "AL2",
+  "licenser.useSingleLineStyle": false,
+
+  // Prettier settings
+  "prettier.singleQuote": true,
+  "prettier.useTabs": false,
+  "prettier.trailingComma": "all",
+  "prettier.printWidth": 80
+}
