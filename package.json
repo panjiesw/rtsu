@@ -23,6 +23,9 @@
     "react",
     "interfaces"
   ],
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "build": "tsc --declaration",
     "clean": "del-cli lib",
